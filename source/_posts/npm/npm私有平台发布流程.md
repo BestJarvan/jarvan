@@ -1,8 +1,8 @@
 ---
 title: npm私有平台发布流程
-date: 2020.04.10 18:48
-updated: 2020.04.10 18:48
-tags: 
+date: 2019.12.15 18:48
+updated: 2019.12.16 18:48
+categories: 
   - npm
 ---
 ### 一、源管理工具nrm

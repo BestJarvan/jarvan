@@ -2,7 +2,7 @@
 title: 微信小程序-省市县三级联动组件city-picker
 date: 2018.03.24 10:46
 updated: 2018.03.24 10:46
-tags: 
+categories: 
   - wechat
 ---
 

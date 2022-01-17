@@ -2,7 +2,7 @@
 title: ionic2+cordova插件实现第三方登录
 date: 2017.07.25 17:03
 updated: 2017.07.25 17:03
-tags: 
+categories: 
   - ionic2
 ---
 #### 1.首先和所有的都一样，要分别到各个开放平台申请appid，添加测试账号

@@ -2,7 +2,7 @@
 title: ionic2拖拽元素
 date: 2018.06.20 18:31
 updated: 2018.06.20 18:31
-tags: 
+categories: 
   - ionic2
 ---
 先看效果图

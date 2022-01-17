@@ -2,7 +2,7 @@
 title: node.js实现简单的登录注册页面
 date: 2017.07.25 15:59
 updated: 2017.07.25 15:59
-tags: 
+categories: 
   - node
 ---
 首先需要新建四个文件

@@ -2,7 +2,7 @@
 title: 前端数据存储之IndexedDB
 date: 2020.08.06 11:14
 updated: 2020.08.06 11:14
-tags: 
+categories: 
   - js
 ---
 

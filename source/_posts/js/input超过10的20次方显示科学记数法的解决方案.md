@@ -2,7 +2,7 @@
 title: input超过10的20次方显示科学记数法的解决方案
 date: 2020.11.13 16:58
 updated: 2020.11.13 16:58
-tags: 
+categories: 
   - js
 ---
 >项目中用到input type="number" 输入框如果数值超过了10的20次方会显示成10exxx或者10e+xxx 

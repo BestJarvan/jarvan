@@ -2,7 +2,7 @@
 title: typec快速分离线
 date: 2021.10.15 17:36
 updated: 2021.10.15 17:36
-tags: 
+categories: 
   - notes
 ---
 #### 材料：

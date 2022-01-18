@@ -670,7 +670,7 @@ kbd {
 }
 .content-wrap {
   width: calc(100% - 330px);
-  float: right;
+  float: left;
 }
 .content-wrap--noside {
   float: none;
@@ -1242,7 +1242,7 @@ kbd {
 }
 .sidebar-wrap {
   width: 300px;
-  float: left;
+  float: right;
 }
 .sidebar-nav {
   padding-bottom: 1em;
@@ -2520,6 +2520,13 @@ kbd {
   cursor: zoom-out;
   will-change: transform;
 }
+.lazyload-block {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  min-width: 30px;
+  min-height: 30px;
+}
 .mode {
   position: relative;
   border: 0;
@@ -2701,7 +2708,7 @@ kbd {
   border-radius: 5px;
   padding: 1rem 2rem;
   background-color: var(--color-card);
-  float: right;
+  float: left;
 }
 .copy-button {
   position: absolute;

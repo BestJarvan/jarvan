@@ -127,28 +127,28 @@ pwa:
       scope: /
       start_url: /
       icons:
-        - src: /favicon1.png
+        - src: /favicon.png
           type: image/png
           sizes: 48x48
-        - src: /favicon1.png
+        - src: /favicon.png
           type: image/png
           sizes: 96x96
-        - src: /favicon1.png
+        - src: /favicon.png
           type: image/png
           sizes: 128x128
-        - src: /favicon1.png
+        - src: /favicon.png
           type: image/png
           sizes: 144x144
-        - src: /favicon1.png
+        - src: /favicon.png
           type: image/png
           sizes: 180x180
-        - src: /favicon1.png
+        - src: /favicon.png
           type: image/png
           sizes: 192x192
-        - src: /favicon1.png
+        - src: /favicon.png
           type: image/png
           sizes: 512x512
-        - src: /favicon1.png
+        - src: /favicon.png
           type: image/png
           sizes: 180x180
   serviceWorker:

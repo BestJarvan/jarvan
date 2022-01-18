@@ -4,6 +4,10 @@ date: 2017.08.08 17:03
 updated: 2017.08.08 17:03
 categories: 
   - ionic2
+tags:
+ - ionic2
+ - jpush
+ - angular
 ---
 首先需要申请极光开发者账号 并且创建一个app应用，创建之后需要上传.p12格式的证书，拿到APP_KEY
 <!-- more -->

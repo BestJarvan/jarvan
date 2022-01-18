@@ -4,6 +4,13 @@ date: 2021.8.15 17:36
 updated: 2021.8.15 17:36
 categories: 
   - notes
+tags:
+	- typescript
+	- jest
+	- npm
+	- vue2
+	- git
+	- vue
 ---
 为什么选择开发utils包？
 

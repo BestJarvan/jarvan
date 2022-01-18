@@ -4,6 +4,8 @@ date: 2018.03.24 10:46
 updated: 2018.03.24 10:46
 categories: 
   - wechat
+tags:
+  - wechat
 ---
 最近刚写小程序 发现很多坑 不过先封装了一些简单的组件 慢慢用
 

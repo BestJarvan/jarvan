@@ -4,6 +4,12 @@ date: 2020.08.06 11:14
 updated: 2020.08.06 11:14
 categories: 
   - js
+tags:
+  - javascript
+  - cookie
+  - indexedDB
+  - localStorage
+  - sessionStorage
 ---
 
 ##### 一、关于前端数据存储常用的几个方案

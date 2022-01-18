@@ -4,6 +4,8 @@ date: 2021.12.30 17:10
 updated: 2021.12.30 17:10
 categories: 
   - notes
+tags:
+  - javascript
 ---
 1. [运算符优先级](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)![image-20211227151339474](https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112271513665.png)
 <!-- more -->

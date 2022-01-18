@@ -4,6 +4,9 @@ date: 2020.11.13 16:58
 updated: 2020.11.13 16:58
 categories: 
   - js
+tags:
+  - javascript
+  - input
 ---
 >项目中用到input type="number" 输入框如果数值超过了10的20次方会显示成10exxx或者10e+xxx 
 >解决方案：

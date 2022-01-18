@@ -4,6 +4,10 @@ date: 2017.07.25 17:03
 updated: 2017.07.25 17:03
 categories: 
   - ionic2
+tags:
+  - ionic2
+  - cordova
+  - angular
 ---
 #### 1.首先和所有的都一样，要分别到各个开放平台申请appid，添加测试账号
 

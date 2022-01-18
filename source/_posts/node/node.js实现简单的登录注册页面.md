@@ -4,6 +4,10 @@ date: 2017.07.25 15:59
 updated: 2017.07.25 15:59
 categories: 
   - node
+tags:
+  - javascript
+  - nodejs
+  - html
 ---
 首先需要新建四个文件
 

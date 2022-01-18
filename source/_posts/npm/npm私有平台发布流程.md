@@ -4,6 +4,9 @@ date: 2019.12.15 18:48
 updated: 2019.12.16 18:48
 categories: 
   - npm
+tags:
+  - npm
+  - nrm
 ---
 ### 一、源管理工具nrm
 

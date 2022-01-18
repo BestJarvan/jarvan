@@ -4,6 +4,10 @@ date: 2021.11.19 10:55
 updated: 2021.11.19 10:55
 categories: 
   - notes
+tags:
+  - macOS
+  - Xcode
+  - Simulator
 ---
 >macOS升级到12 macOS Monterey后，xcode(version 12)提示无法使用，需要升级，升级前还能打开iOS11.4的Simulator，升级后(xcode 13)提示不支持低版本iOS，最低支持iOS12版本，但是项目中又需要用到低版本的系统。
 <!-- more -->

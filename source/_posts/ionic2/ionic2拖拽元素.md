@@ -4,6 +4,10 @@ date: 2018.06.20 18:31
 updated: 2018.06.20 18:31
 categories: 
   - ionic2
+tags:
+  - ionic2
+  - jquery
+  - angular
 ---
 先看效果图
 ![拖拽元素](https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202201171507697.gif)

@@ -48,4 +48,4 @@ function ScientificNumber (num) {
   }
 ```
 
-![测试结果](https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202201171510537.png)
+![测试结果](/doc-assets/202201171510537.png)

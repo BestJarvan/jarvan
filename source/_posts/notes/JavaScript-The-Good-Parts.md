@@ -7,7 +7,8 @@ categories:
 tags:
   - javascript
 ---
-1. [运算符优先级](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)![image-20211227151339474](https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112271513665.png)
+1. [运算符优先级](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+![image](/doc-assets/202112271513665.png)
 <!-- more -->
 2. 优先考虑使用.表示法，因为它更紧凑且可读性更好，但是如果你尝试检索一个不一定存在的值，则需使用['string']写法，它将返回一个`undefined`，若尝试从`undefined`的成员属性中取值，则会导致 TypeError 异常，这时可以通过`&&`运算符避免错误
    ```javascript

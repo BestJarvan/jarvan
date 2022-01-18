@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://bestjarvan.gitee.io/
-root: /bestjarvan
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -111,3 +111,46 @@ deploy:
   type: git
   repo: https://gitee.com/bestjarvan/bestjarvan.git
   branch: dev
+
+# pwa
+pwa:
+  manifest:
+    path: /manifest.json
+    body:
+      name: Jarvan
+      short_name: Jarvan
+      lang: zh-CN
+      theme_color: white
+      background_color: white
+      display: standalone
+      orientation: portrait
+      scope: /
+      start_url: /
+      icons:
+        - src: /favicon1.png
+          type: image/png
+          sizes: 48x48
+        - src: /favicon1.png
+          type: image/png
+          sizes: 96x96
+        - src: /favicon1.png
+          type: image/png
+          sizes: 128x128
+        - src: /favicon1.png
+          type: image/png
+          sizes: 144x144
+        - src: /favicon1.png
+          type: image/png
+          sizes: 180x180
+        - src: /favicon1.png
+          type: image/png
+          sizes: 192x192
+        - src: /favicon1.png
+          type: image/png
+          sizes: 512x512
+        - src: /favicon1.png
+          type: image/png
+          sizes: 180x180
+  serviceWorker:
+    options:
+      offlineGoogleAnalytics: true

@@ -91,7 +91,7 @@ favicon:
 # Progressive Web Apps
 # See: https://github.com/lavas-project/hexo-pwa/
 pwa:
-  enable: false
+  enable: true
   manifest: /manifest.json
   # (Please use "" to wrap the value)
   theme_color: "#54bcff"
@@ -277,7 +277,7 @@ back2top:
 sidebar:
   enable: true
   # Optional values: left | right
-  position: left
+  position: right
   # The distance from the top of the page when the sidebar is fixed (Only `px` unit is supported)
   offsetTop: 20px
   # Whether to show horizon line.
@@ -365,7 +365,7 @@ reading_progress:
 codeblock:
   # The style of code block.
   # Optional values: default | simple | carbon
-  style: default
+  style: carbon
   # The theme of code highlight.
   # Optional values: light | dark | ocean
   highlight: light
@@ -761,7 +761,7 @@ gallery_waterfall:
 # Lazy load the images of post.
 # See: https://github.com/tuupola/lazyload
 lazyload:
-  enable: false
+  enable: true
   # Optional values: gif | block
   placeholder: gif
 

@@ -558,8 +558,8 @@ livere:
 # Disqus
 # See: https://disqus.com/
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: jarvanblog
   count: true
 
 # Utterances

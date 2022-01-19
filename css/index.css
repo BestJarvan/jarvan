@@ -2710,6 +2710,10 @@ kbd {
   background-color: var(--color-card);
   float: left;
 }
+#disqus_thread {
+  width: 100%;
+  background-color: #fff;
+}
 .copy-button {
   position: absolute;
   top: 0;

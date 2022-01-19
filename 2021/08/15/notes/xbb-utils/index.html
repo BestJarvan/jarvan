@@ -5,23 +5,23 @@
 <meta property="og:site_name" content="JiangYahui&#39;s Blog">
 <meta property="og:description" content="为什么选择开发utils包？  方便代码的快速维护  方便一套代码部署多个项目以及新项目的快速启动  为后期需求踩坑">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047229.png">
-<meta property="og:image" content="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047515.png">
-<meta property="og:image" content="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047549.png">
-<meta property="og:image" content="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047925.png">
-<meta property="og:image" content="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047418.png">
-<meta property="og:image" content="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047096.png">
+<meta property="og:image" content="https://bestjarvan.gitee.io/doc-assets/202112221047229.png">
+<meta property="og:image" content="https://bestjarvan.gitee.io/doc-assets/202112221047515.png">
+<meta property="og:image" content="https://bestjarvan.gitee.io/doc-assets/202112221047549.png">
+<meta property="og:image" content="https://bestjarvan.gitee.io/doc-assets/202112221047925.png">
+<meta property="og:image" content="https://bestjarvan.gitee.io/doc-assets/202112221047418.png">
+<meta property="og:image" content="https://bestjarvan.gitee.io/doc-assets/202112221047096.png">
 <meta property="article:published_time" content="2021-08-15T09:36:00.000Z">
 <meta property="article:modified_time" content="2021-08-15T09:36:00.000Z">
 <meta property="article:author" content="Jarvan">
 <meta property="article:tag" content="typescript">
-<meta property="article:tag" content="npm">
 <meta property="article:tag" content="jest">
+<meta property="article:tag" content="npm">
 <meta property="article:tag" content="vue2">
 <meta property="article:tag" content="git">
 <meta property="article:tag" content="vue">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047229.png"><title>xbb-utils开发规范 | JiangYahui's Blog</title><link ref="canonical" href="https://bestjarvan.gitee.io/2021/08/15/notes/xbb-utils/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
+<meta name="twitter:image" content="https://bestjarvan.gitee.io/doc-assets/202112221047229.png"><title>xbb-utils开发规范 | JiangYahui's Blog</title><link ref="canonical" href="https://bestjarvan.gitee.io/2021/08/15/notes/xbb-utils/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
 var CONFIG = {
   root: '/',
   algolia: undefined,
@@ -119,11 +119,11 @@ window.CONFIG = CONFIG;</script><!-- hexo injector head_end start --><link rel="
 <p>备注：因为使用了自动文档生成工具，所以为了避免文档输出混乱，备注需要统一的规则。除<code>types</code>文件下的方法，其余的都需要添加<code>@ignore</code>阻止文档的自动生成，</p>
 <p>
         <img   class="lazyload lazyload-gif"
-          src="/images/loading.svg" data-src="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047229.png"  alt="图1">
+          src="/images/loading.svg" data-src="/doc-assets/202112221047229.png"  alt="图1">
       </p>
 <p>
         <img   class="lazyload lazyload-gif"
-          src="/images/loading.svg" data-src="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047515.png"  alt="图2">
+          src="/images/loading.svg" data-src="/doc-assets/202112221047515.png"  alt="图2">
       </p>
 
         <h3 id="单测"   >
@@ -132,15 +132,15 @@ window.CONFIG = CONFIG;</script><!-- hexo injector head_end start --><link rel="
 <li><code>unit/index.spec.ts</code>文件用来测试实例是否挂载了对应的方法(<code>/src/core/**.ts</code>)，每次在<code>core</code>下新增方法后，都需要到这个文件下的对应单测模块中添加测试实例，用于确保实例有此方法，相当于双重保险；</li>
 <li><code>unit/core/**.spec.ts</code>为对应的<code>core</code>下的核心单测文件，每个单测方法都有一个大的<code>describe</code>包裹数个<code>it</code>，方便单测报错时，定位具体哪个文件下的哪个方法报错，错误日志会输出<code>describe</code>和<code>it</code>的描述文案；<br> 
         <img   class="lazyload lazyload-gif"
-          src="/images/loading.svg" data-src="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047549.png" >
+          src="/images/loading.svg" data-src="/doc-assets/202112221047549.png" >
       </li>
 <li>单测文件需要把要测试的代码中的每一个分支，每一行代码，每一个判断都要覆盖，需要完成方法覆盖100%，分支覆盖98%，行数覆盖100%的条件，推荐全部100%；<br> 
         <img   class="lazyload lazyload-gif"
-          src="/images/loading.svg" data-src="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047925.png" >
+          src="/images/loading.svg" data-src="/doc-assets/202112221047925.png" >
       </li>
 <li>单测结果可以在控制台或者<code>coverage/lcov-report/index.html</code>查看详情。<br> 
         <img   class="lazyload lazyload-gif"
-          src="/images/loading.svg" data-src="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047418.png" >
+          src="/images/loading.svg" data-src="/doc-assets/202112221047418.png" >
       <ul>
 <li>第一行10x 代表当前行走了10次</li>
 <li>黄色img[0]表示单测这行代码没有覆盖到</li>
@@ -160,7 +160,7 @@ window.CONFIG = CONFIG;</script><!-- hexo injector head_end start --><link rel="
       <p>需要用到的项目，使用<code>npm i -S xbb-utils</code>来安装最新版本，之后再需要用到的页面<code>import xbb from &#39;xbb-utils&#39;</code></p>
 <p>
         <img   class="lazyload lazyload-gif"
-          src="/images/loading.svg" data-src="https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112221047096.png"  alt="代码提示">
+          src="/images/loading.svg" data-src="/doc-assets/202112221047096.png"  alt="代码提示">
       </p>
 
         <h3 id="功能开发"   >
@@ -180,7 +180,7 @@ window.CONFIG = CONFIG;</script><!-- hexo injector head_end start --><link rel="
 <li>检查无误，没有问题之后，去gitlab提交MR(merge request)</li>
 <li>待管理员审核无误后发布，会在群里通知最新版本号，及时更新到最近版本即可</li>
 </ol>
-</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="https://bestjarvan.gitee.io">Jarvan</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="https://bestjarvan.gitee.io/2021/08/15/notes/xbb-utils/">https://bestjarvan.gitee.io/2021/08/15/notes/xbb-utils/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/typescript/">typescript</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/npm/">npm</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/jest/">jest</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/vue2/">vue2</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/git/">git</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/vue/">vue</a></span></div><div class="post-reward reward"><div class="reward-button">请我喝杯咖啡~</div><div class="reward-qrcode"><span class="reward-qrcode-alipay"><img class="reward-qrcode-alipay__img" src="/ali.png"><div class="reward-qrcode-alipay__text">支付宝打赏</div></span><span class="reward-qrcode-wechat"><img class="reward-qrcode-wechat__img" src="/wx.png"><div class="reward-qrcode-wechat__text">微信打赏</div></span></div></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/2021/10/15/notes/typec-line/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">typec快速分离线</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/2020/11/13/js/input-20/"><span class="paginator-prev__text">input超过10的20次方显示科学记数法的解决方案</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E8%A7%84%E8%8C%83"><span class="toc-number">1.</span> <span class="toc-text">
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="https://bestjarvan.gitee.io">Jarvan</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="https://bestjarvan.gitee.io/2021/08/15/notes/xbb-utils/">https://bestjarvan.gitee.io/2021/08/15/notes/xbb-utils/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/typescript/">typescript</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/jest/">jest</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/npm/">npm</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/vue2/">vue2</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/git/">git</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://bestjarvan.gitee.io/tags/vue/">vue</a></span></div><div class="post-reward reward"><div class="reward-button">请我喝杯咖啡~</div><div class="reward-qrcode"><span class="reward-qrcode-alipay"><img class="reward-qrcode-alipay__img" src="/ali.png"><div class="reward-qrcode-alipay__text">支付宝打赏</div></span><span class="reward-qrcode-wechat"><img class="reward-qrcode-wechat__img" src="/wx.png"><div class="reward-qrcode-wechat__text">微信打赏</div></span></div></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/2021/10/15/notes/typec-line/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">typec快速分离线</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/2020/11/13/js/input-20/"><span class="paginator-prev__text">input超过10的20次方显示科学记数法的解决方案</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div><div class="comments" id="comments"><div id="disqus_thread"></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E8%A7%84%E8%8C%83"><span class="toc-number">1.</span> <span class="toc-text">
           版本规范</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84"><span class="toc-number">2.</span> <span class="toc-text">
           项目结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#src"><span class="toc-number">3.</span> <span class="toc-text">
           src</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E6%B5%8B"><span class="toc-number">4.</span> <span class="toc-text">
@@ -461,6 +461,42 @@ if (Array.isArray(assistSearchList)) {
       extSearch(name);
     }, false);
   });
+}</script><script>function loadDisqus () {
+  if (!document.getElementById('disqus_thread')) {
+    return;
+  }
+  if (window.DISQUS) {
+    DISQUS.reset({
+      reload: true,
+      config: function () {
+        this.page.url = 'https://bestjarvan.gitee.io/2021/08/15/notes/xbb-utils/';
+        this.page.identifier = '2021/08/15/notes/xbb-utils/';
+        this.page.title = 'xbb-utils开发规范';
+      }
+    });
+  } else {
+    var d = document;
+    var sc = d.createElement('script');
+    var se = d.createElement('script');
+
+    if (true) {
+      sc.src = 'https://jarvanblog.disqus.com/count.js';
+      sc.id = 'dsq-count-scr';
+      sc.async = true;
+      if (false) {
+        sc.setAttribute('data-pjax', '');
+      }
+      (d.head || d.body).appendChild(sc);
+    }
+    se.src = 'https://jarvanblog.disqus.com/embed.js';
+    (d.head || d.body).appendChild(se);
+  }
+}
+
+if (false) {
+  loadDisqus();
+} else {
+  window.addEventListener('DOMContentLoaded', loadDisqus, false);
 }</script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script><script type="application/json" src="/search.json"></script><!-- hexo injector body_end start --><script>
 // Check that service workers are supported
 if ('serviceWorker' in navigator) {
@@ -470,4 +506,4 @@ if ('serviceWorker' in navigator) {
   });
 }
 </script>
-<!-- hexo injector body_end end --></body></html>
+<!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/dsr50_2101.model.json"},"display":{"position":"right","width":185,"height":375,"hOffset":160},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script></body></html>

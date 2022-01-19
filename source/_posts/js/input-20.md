@@ -1,5 +1,5 @@
 ---
-title: input超过10的20次方显示科学记数法的解决方案
+title: input超过10^20科学记数法的解决方案
 date: 2020.11.13 16:58
 updated: 2020.11.13 16:58
 categories: 

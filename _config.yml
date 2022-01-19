@@ -4,7 +4,7 @@
 
 # Site
 title: JiangYahui's Blog
-subtitle: '123'
+subtitle: 'Coding...'
 description: ''
 keywords:
 author: Jarvan
@@ -154,3 +154,24 @@ pwa:
   serviceWorker:
     options:
       offlineGoogleAnalytics: true
+
+quicklink:
+  # 是否启用。这里启用之后并不会对所有页面生效，你还需要进行下面的设置
+  enable: true
+  # 设置 home 页面和 archive 页面是否启用
+  home: true
+  archive: true
+  # 当浏览器 DOMContentLoaded 事件触发后，开始初始化 quicklink
+  delay: true
+  # requestIdleCallback 超时时间（浏览器执行预取的时间（以毫秒为单位））
+  timeout: 10000
+  # 启用 fetch() 或回退到 XHR
+  priority: true
+  # 设置忽略预取的链接类型
+  # ！！如果你不了解如何使用，请忽略这一项（默认即可）！！
+  ignores:
+    - /\/api\/?/
+    - uri => uri.includes('.xml')
+    - uri => uri.includes('.zip')
+    - (uri, el) => el.hasAttribute('nofollow')
+    - (uri, el) => el.hasAttribute('noprefetch')

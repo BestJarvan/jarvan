@@ -239,13 +239,6 @@
   </url>
   
   <url>
-    <loc>https://bestjarvan.gitee.io/tags/jpush/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://bestjarvan.gitee.io/tags/jquery/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -253,14 +246,14 @@
   </url>
   
   <url>
-    <loc>https://bestjarvan.gitee.io/tags/javascript/</loc>
+    <loc>https://bestjarvan.gitee.io/tags/jpush/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://bestjarvan.gitee.io/tags/event-loop/</loc>
+    <loc>https://bestjarvan.gitee.io/tags/javascript/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -296,20 +289,6 @@
   
   <url>
     <loc>https://bestjarvan.gitee.io/tags/input/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://bestjarvan.gitee.io/tags/nodejs/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://bestjarvan.gitee.io/tags/html/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -366,6 +345,27 @@
   
   <url>
     <loc>https://bestjarvan.gitee.io/tags/nrm/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bestjarvan.gitee.io/tags/event-loop/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bestjarvan.gitee.io/tags/nodejs/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bestjarvan.gitee.io/tags/html/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -444,13 +444,6 @@
   </url>
   
   <url>
-    <loc>https://bestjarvan.gitee.io/categories/node/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://bestjarvan.gitee.io/categories/npm/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -459,6 +452,13 @@
   
   <url>
     <loc>https://bestjarvan.gitee.io/categories/notes/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bestjarvan.gitee.io/categories/node/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

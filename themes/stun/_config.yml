@@ -52,6 +52,7 @@ sougou_site_verification:
 menu:
   home: / || fas fa-home
   file: javascript:; || fas fa-book
+  about: /about/ || fas fa-fingerprint
   other: javascript:; || fas fa-cannabis
   # categories: /categories/ || fas fa-layer-group
   # tags: /tags/ || fas fa-tags

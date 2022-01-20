@@ -23,7 +23,7 @@ title: 友链
 ```json
 {
   "avatar": "https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202201210041048.png",
-  "name": "JiangYahui",
+  "name": "Jiangyh",
   "introduction": "coding...",
   "url": "https://bestjarvan.gitee.io/"
 }

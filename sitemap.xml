@@ -239,14 +239,14 @@
   </url>
   
   <url>
-    <loc>https://bestjarvan.gitee.io/tags/jquery/</loc>
+    <loc>https://bestjarvan.gitee.io/tags/jpush/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://bestjarvan.gitee.io/tags/jpush/</loc>
+    <loc>https://bestjarvan.gitee.io/tags/jquery/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -372,20 +372,6 @@
   </url>
   
   <url>
-    <loc>https://bestjarvan.gitee.io/tags/vue/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://bestjarvan.gitee.io/tags/shell/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://bestjarvan.gitee.io/tags/macOS/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -415,6 +401,20 @@
   
   <url>
     <loc>https://bestjarvan.gitee.io/tags/git/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bestjarvan.gitee.io/tags/vue/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bestjarvan.gitee.io/tags/shell/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -458,14 +458,14 @@
   </url>
   
   <url>
-    <loc>https://bestjarvan.gitee.io/categories/vue/</loc>
+    <loc>https://bestjarvan.gitee.io/categories/notes/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://bestjarvan.gitee.io/categories/notes/</loc>
+    <loc>https://bestjarvan.gitee.io/categories/vue/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

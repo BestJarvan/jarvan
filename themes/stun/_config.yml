@@ -312,14 +312,14 @@ author:
 # If you can`t find a suitable icon, you can choose to display text by adding the `origin:` prefix.
 # e.g. `origin:sf`, so `sf` will be displayed.
 social:
-  # github: https://github.com/ || fab fa-github
   gitee: https://gitee.com/bestjarvan || origin:码
+  github: https://github.com/BestJarvan || fab fa-github
   # google: https://plus.google.com/ || fab fa-google
   # twitter: https://twitter.com/ || fab fa-twitter
   # youtube: https://youtube.com/ || fab fa-youtube
   # segmentfault: https://segmentfault.com/ || origin:sf
   # weibo: https://weibo.com/ || fab fa-weibo
-  # zhihu: https://www.zhihu.com/ || origin:知
+  zhihu: https://www.zhihu.com/people/jiang-ya-hui-37 || origin:知
   # wechat: yournumber || fab fa-weixin
   # telegram: yournumber || fab fa-telegram
   jianshu: https://www.jianshu.com/u/60beacd06321 || origin:简

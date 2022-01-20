@@ -313,7 +313,7 @@ author:
 # e.g. `origin:sf`, so `sf` will be displayed.
 social:
   # github: https://github.com/ || fab fa-github
-  gitee: https://gitee.com/bestjarvan || fab fa-git
+  gitee: https://gitee.com/bestjarvan || origin:码
   # google: https://plus.google.com/ || fab fa-google
   # twitter: https://twitter.com/ || fab fa-twitter
   # youtube: https://youtube.com/ || fab fa-youtube
@@ -322,6 +322,7 @@ social:
   # zhihu: https://www.zhihu.com/ || origin:知
   # wechat: yournumber || fab fa-weixin
   # telegram: yournumber || fab fa-telegram
+  jianshu: https://www.jianshu.com/u/60beacd06321 || origin:简
   qq: tencent://message/?uin=532547613' || fab fa-qq
 
 social_setting:

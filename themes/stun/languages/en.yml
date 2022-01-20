@@ -17,6 +17,8 @@ menu:
   categories: Categories
   tags: Tags
   about: About
+  other: Other
+  friend: Friend chain
 
 # Archives page, Categories page, Tags page
 page:

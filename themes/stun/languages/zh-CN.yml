@@ -17,6 +17,8 @@ menu:
   categories: 分类
   tags: 标签
   about: 关于
+  other: 其他
+  friend: 友链
 
 # 归档页、分类页、标签页
 page:

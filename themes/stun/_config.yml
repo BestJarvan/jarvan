@@ -52,6 +52,7 @@ sougou_site_verification:
 menu:
   home: / || fas fa-home
   file: javascript:; || fas fa-book
+  other: javascript:; || fas fa-cannabis
   # categories: /categories/ || fas fa-layer-group
   # tags: /tags/ || fas fa-tags
   # You can add a secondary menu like follow.
@@ -63,6 +64,8 @@ submenu:
     archives: /archives/ || fas fa-folder-open
     categories: /categories/ || fas fa-layer-group
     tags: /tags/ || fas fa-tags
+  other:
+    friend: /friend/ || fas fa-users
   # Add item of secondary menu in here.
   # xxx1:
   #   xxx1-1: /xxx1-1/ || fa(s|r|l|d|b) fa-xxx

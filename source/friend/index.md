@@ -14,7 +14,7 @@ title: 友链
 {
   "avatar": "https://bestjarvan.gitee.io/avatar.jpeg",
   "name": "your name",
-  "introduction": "我的介绍",
+  "introduction": "你的个人介绍",
   "url": "https://example.com/"
 }
 ```

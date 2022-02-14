@@ -13,9 +13,9 @@ tags:
 
 先看效果：
 <!-- more -->
-![未点击](https://raw.githubusercontent.com/BestJarvan/pic-imgs/main/imgs/202201171509394.png)
+![未点击](https://cdn.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202201171509394.png)
 
-![点击效果](https://raw.githubusercontent.com/BestJarvan/pic-imgs/main/imgs/202201171509070.png)
+![点击效果](https://cdn.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202201171509070.png)
 
 用法：
 

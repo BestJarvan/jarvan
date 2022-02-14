@@ -104,7 +104,7 @@ tags:
     const myCat = cat({name: 'lisi'})
     ```
 
-11. 正则尾部符号意义: g(global)/i(ignoreCase)/m(multiline)![image-20211229142706807](https://yahuiimg.oss-cn-hangzhou.aliyuncs.com/202112291427083.png)
+11. 正则尾部符号意义: g(global)/i(ignoreCase)/m(multiline)![image-20211229142706807](https://raw.githubusercontent.com/BestJarvan/pic-imgs/main/imgs/202112291427083.png)
 
 12. 用正则表达式字面量创建RegExp对象共享**同一个单利**：
 

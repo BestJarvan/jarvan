@@ -109,7 +109,7 @@ theme: stun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://gitee.com/bestjarvan/bestjarvan.git
+  repo: git@gitee.com:bestjarvan/bestjarvan.git
   branch: dev
 
 # pwa

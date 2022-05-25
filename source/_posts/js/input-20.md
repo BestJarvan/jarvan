@@ -48,4 +48,4 @@ function ScientificNumber (num) {
   }
 ```
 
-![测试结果](https://cdn.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202201171510537.png)
+![测试结果](https://fastly.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202201171510537.png)

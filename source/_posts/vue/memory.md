@@ -22,7 +22,7 @@ tags:
 
 初始内存占用：
 
-![img](https://cdn.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202205071112669.png)
+![img](https://fastly.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202205071112669.png)
 
 
 
@@ -30,15 +30,15 @@ tags:
 
 一顿操作之后：
 
-![img](https://cdn.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202205071112181.png)
+![img](https://fastly.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202205071112181.png)
 
 
 
 排查占用内存较大的数据点：
 
-![img](https://cdn.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202205071113020.png)
+![img](https://fastly.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202205071113020.png)
 
-![img](https://cdn.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202205071113005.png)
+![img](https://fastly.jsdelivr.net/gh/BestJarvan/pic-imgs/imgs/202205071113005.png)
 
 
 

@@ -15,7 +15,7 @@ tags:
 一个保存数据的txt (代码会自动新建，手动新建也可)
 一个登陆、一个注册页面html
 <!-- more -->
-gitee：https://gitee.com/bestjarvan/user-register-nodejs-demo.git
+gitee：https://github.com/BestJarvan/user-register-nodejs-demo.git
 ### 1.注册页面
 ```html
 <!DOCTYPE html>

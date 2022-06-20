@@ -16,7 +16,7 @@ tags:
 > 项目中经常会用到某些方法，比如格式化时间戳，比如判断环境等等，笔者最初是把这些方法抽离出来写成公共方法，但由于后期项目扩展每次都要复制这个工具文件很是麻烦且效率低下，发布npm包正好解决了这个痛点，正好借此机会重构成ts文件并发布npm包。
 
 <!-- more -->
-本文只简要介绍下整个流程，具体参考[utils项目](https://gitee.com/bestjarvan/utils/tree/master)
+本文只简要介绍下整个流程，具体参考[utils项目](https://github.com/BestJarvan/utils-tools.git)
 
 ### 简要
 

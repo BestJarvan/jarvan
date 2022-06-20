@@ -209,7 +209,7 @@ footer:
   copyright:
     enable: true
     # If not set, will be used `author` from Hexo main config (e.g. liuyib All Rights Reserved)
-    text: <a href="https://gitee.com/bestjarvan" rel="noopener" target="_blank">Jarvan</a>
+    text: <a href="https://github.com/BestJarvan" rel="noopener" target="_blank">Jarvan</a>
     # Start time. If not set, the current year will be used.
     since: 2016
     # End time. If not set, the current year will be used.

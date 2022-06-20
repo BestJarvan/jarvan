@@ -29,12 +29,21 @@ tags:
 - 发布
 
 ### 工具
-
-- [typescript](https://www.tslang.cn/)
-- [typedoc](http://typedoc.org/)
-- [rollup](https://www.rollupjs.com/) + [gulp](https://www.gulpjs.com.cn/)
+- [TypeScript](https://www.tslang.cn/)
+- [Typedoc](http://typedoc.org/)
+- [Vue 2.x](https://cn.vuejs.org/)
+- [Rollup](https://www.rollupjs.com/) + [gulp](https://www.gulpjs.com.cn/)
 - [jest](https://jestjs.io/)
 - [pm2](https://pm2.keymetrics.io/) + [verdaccio](https://verdaccio.org/)
+- [Lodash](https://www.lodashjs.com/)
+
+### 插件
+> 本工具包使用下列插件规范开发，定制团队开发规范
+- eslint
+- tslint
+- prettier
+- commitlint
+- husky
 
 ### 项目架构
 
@@ -49,6 +58,8 @@ tags:
 │   └── interfaces
 ├── gulpfile.js // gulp+rollup配置文件
 ├── package.json
+├── public // vue相关
+├── home // vue调试页面
 ├── src // 代码模块
 │   ├── core // 核心代码块
 │   │   ├── env.ts
@@ -210,7 +221,8 @@ gulp.task('default',
 二、使用verdaccio搭建npm私服，并使用pm2守护进程
 
 1. `npm install -g verdaccio pm2`全局安装verdaccio以及pm2[^pm2]
-2. terminal直接输入verdaccio 即可立即运行，默认抛出端口为4873，我们可以使用`pm2 start verdaccio`指令使其运行到后台
+2. terminal直接输入verdaccio 
+即可立即运行，默认抛出端口为4873，我们可以使用`pm2 start verdaccio`指令使其运行到后台
 3. 现在我们可以通过`localhost:4873`访问npm私服^localhost
 4. 发布到verdaccio平台 首先需要在terminal中输入`npm adduser --registry http://localhost:4873`注册用户，输入用户名、密码、邮箱等信息注册
 5. `npm publish --registry http://localhost:4873` 发布代码包
